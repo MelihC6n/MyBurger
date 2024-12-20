@@ -1,0 +1,132 @@
+.navbar-brand {
+  color: white;
+  font-weight: 500;
+}
+
+.mainPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.addModel {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.btn-danger {
+  background-color: #ff0000;
+}
+
+#ingrediantBoxInProductAdd{
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: safe;
+}
+
+#unOrderedIngrediantBox{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.form-check {
+  border: 2px solid gray;
+  border-radius: 6px;
+  padding: 4px 5px 4px 35px;
+}
+
+#productBoxInMenuAdd {
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: safe;
+}
+
+#menu-card-price{
+  display: flex; align-items: center; justify-content: space-around;
+}
+
+#menu-card-price h5{
+  margin: 0;
+}
+
+#deleteButton{
+  border: none;
+  height:  10px !important;
+}
+
+.counter{
+  position: absolute;
+  top: 5px;
+  background-color: red;
+  border-radius: 10px;
+  width: 15px;
+  text-align: center;
+  margin-right: 5px;
+  
+  
+  }
+  .shopping {
+      margin-top: 5px;
+      font-size: 2.5rem;
+      cursor: pointer;
+      transition: 0.5s ease;
+  }
+  
+  .shopArea{
+      width: 290px;
+      height: 100vh;
+      background-color: black;
+      position: left;
+  }
+  
+  .card-img-top{
+    height: 275px;
+    object-fit: contain;
+  }
+
+  .cart-footer, .offcanvas-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .cart-price{
+    margin: 0;
+  }
+
+  .cartProductName{
+    font-weight: 500;
+    font-size: large;
+  }
+
+  .offcanvas-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%; 
+    margin-bottom: 20px;
+    background-color: white;
+  }
+
+  .fa-bag-shopping{
+    margin-left: 20px;
+    margin-right: 0px;
+    padding: 0;
+    font-size: x-large;
+  }
+
+  #cart-counter{
+    padding: 5px 10px 5px 10px !important;
+  }
